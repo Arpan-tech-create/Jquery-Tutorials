@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                    <title>href selector :</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js">
+         </script>
+
+         <script>
+                    $(document).ready(function()
+                    {
+                        $("#btn1").click(function()
+
+                        {
+                            $("[href]").hide();
+                        }
+                        );
+                        $("#btn2").click(function()
+
+                        {
+                            $("[href]").show();
+                        }
+                        );
+                    }
+                    );
+                </script>
+                </head>
+                <body>
+<center><h1 align="center" tect>Href selector : </h1>
+            <a href="https://www.djmit.ac.in"><abbr title="Dr.Jivraj Mehta Institute of Technology">DJMIT</abbr> <abbr title="College">CLG</abbr></a><br/><br/>
+            <button type="button" id="btn1">Hide</button>
+            <button type="button" id="btn2">Show</button>
+
+</center>
+</body>
+</html>

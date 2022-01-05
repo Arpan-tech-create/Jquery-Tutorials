@@ -1,0 +1,35 @@
+<html>
+
+        <head>
+                <script src="https://code.jquery.com/jquery-3.6.0.js">
+                </script>
+                <script>
+
+                    $(document).ready(function()
+
+                    {
+                        $("#line").click(function()
+                        {
+                            $("#panel").slideDown("fast");
+                        }
+                        ); });
+                    </script>
+                    <style>
+                        #panel,#line{
+                            padding: 5px;
+                            text-align: center;
+                            font-family: cursive;
+                            background-color: blueviolet;
+                            border:solid 3px orange;
+                        }
+                        #panel{
+                            padding: 50px;
+                            display: none;
+                        }
+                        </style>
+                    </head>
+                <body>
+                        <div id="line">slideDown by clicking</div>
+                        <div id="panel">ARPAN BHOI</div>
+                        </body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+
+        <head>
+                <title>Focus_blur</title>
+        
+                <script src="https://code.jquery.com/jquery-3.6.0.js">
+                </script>
+                <script>
+
+                $(document).ready(function()
+                {
+                    $("input").focus(function()
+                    
+                    {
+                        $(this).css("background-color","yellow");
+                    });
+                    $("input").blur(function()
+                    {
+                        $(this).css("background-color","green");
+                    });
+                }
+                );
+            </script>
+            </head>
+           <marquee> <body>
+                Name :<input type="text" name="fullname"><br/>
+                Email :<input type="text" name="email"><br/>
+                </body></marquee>
+</html>

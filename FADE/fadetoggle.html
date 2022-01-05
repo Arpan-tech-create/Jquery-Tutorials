@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js">
+    </script>
+
+    <script>
+            $(document).ready(function()
+            
+            {
+                        $("button").click(function()
+                        {
+                                     $("#div1").fadeToggle();
+                                     $("#div2").fadeToggle("fast");
+                                     $("#div3").fadeToggle(4000);
+
+                        }
+                        );
+            } 
+            );
+            </script>
+            </head>
+<body>
+                <h3 align="Practical of fadtoggle"></h3>
+                <button>Click</button>
+                <div id="div1" style="background-color: blueviolet; width: 50px; height: 50px;"></div><br/>
+                <div id="div2" style="background-color: royalblue; width: 50px; height: 50px;"></div><br/>
+                <div id="div3" style="background-color: red; width: 50px; height: 50px;"></div><br/>
+</body>
+</html>

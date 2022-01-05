@@ -1,0 +1,35 @@
+<html>
+
+        <head>
+                <script src="https://code.jquery.com/jquery-3.6.0.js">
+                </script>
+                <script>
+
+                    $(document).ready(function()
+
+                    {
+                        $("#line").click(function()
+                        {
+                            $("#panel").slideToggle("fast");
+                        }
+                        ); });
+                    </script>
+                    <style>
+                        #panel,#line{
+                            padding: 5px;
+                            text-align: center;
+                            font-family: cursive;
+                            background-color: darkgoldenrod;
+                            border:solid 1px blue;
+                        }
+                        #panel{
+                            padding: 50px;
+                            display: none;
+                        }
+                        </style>
+                    </head>
+                <body>
+                       <b> <div id="line">slidetoggle by clicking</div>
+                        <div id="panel">ARPAN BHOI</div></b>
+                        </body>
+</html>

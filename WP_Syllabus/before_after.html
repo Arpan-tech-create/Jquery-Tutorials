@@ -1,0 +1,54 @@
+<html>
+        <head>
+                <script src="https://code.jquery.com/jquery-3.6.0.js">
+                </script>
+            <script>
+
+                $(document).ready(function()
+                {
+                    $("#button1").click(function()
+                    
+                    {
+                        $("ol").before("Element : Before");
+                    }
+                    );
+                    $("#button2").click(function()
+                    
+                    {
+                        $("ul").after("Element : After");
+                    }
+                    );
+                    $("#button3").click(function()
+                    
+                    {
+                        $("ul").hide();
+                    }
+                    );
+                    $("#button4").click(function()
+                    
+                    {
+                        $("ol").hide();
+                    }
+                    );
+                }
+                );
+        </script>
+        </head>
+        <body>
+                <ol type="I">
+                    <li>Hello</li>
+                    <li>HI</li>
+                    <li>Kese ho</li>
+                </ol>
+                <ul type="disc">
+                    <li>Mango</li>
+                    <li>Banana</li>
+                    <li>Apple</li>
+                    <li>Cherry</li>
+                </ul>
+                <button id="button1">Element Before</button></br></br>
+                <button id="button2">Element After</button></br></br>
+                <button id="button3">Hide UL</button></br></br>
+                <button id="button4">Hide OL</button>
+        </body>
+        </html>
